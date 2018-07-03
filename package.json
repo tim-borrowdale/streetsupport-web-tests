@@ -1,0 +1,14 @@
+{
+  "name": "streetsupport-web-tests",
+  "version": "1.0.0",
+  "description": "Automated tests that run against streetsupport.net",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cypress run"
+  },
+  "author": "StreetSupport",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^3.0.2"
+  }
+}
